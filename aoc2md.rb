@@ -14,10 +14,6 @@ class Aoc2md < Formula
 
       def install
         bin.install "aoc2md"
-        bash_completion.install "completions/aoc2md.bash" => "aoc2md"
-        zsh_completion.install "completions/aoc2md.zsh" => "_aoc2md"
-        fish_completion.install "completions/aoc2md.fish"
-        man1.install "manpages/aoc2md.1.gz"
       end
     end
     if Hardware::CPU.arm?
@@ -26,10 +22,6 @@ class Aoc2md < Formula
 
       def install
         bin.install "aoc2md"
-        bash_completion.install "completions/aoc2md.bash" => "aoc2md"
-        zsh_completion.install "completions/aoc2md.zsh" => "_aoc2md"
-        fish_completion.install "completions/aoc2md.fish"
-        man1.install "manpages/aoc2md.1.gz"
       end
     end
   end
@@ -41,10 +33,6 @@ class Aoc2md < Formula
 
       def install
         bin.install "aoc2md"
-        bash_completion.install "completions/aoc2md.bash" => "aoc2md"
-        zsh_completion.install "completions/aoc2md.zsh" => "_aoc2md"
-        fish_completion.install "completions/aoc2md.fish"
-        man1.install "manpages/aoc2md.1.gz"
       end
     end
     if Hardware::CPU.intel?
@@ -53,10 +41,6 @@ class Aoc2md < Formula
 
       def install
         bin.install "aoc2md"
-        bash_completion.install "completions/aoc2md.bash" => "aoc2md"
-        zsh_completion.install "completions/aoc2md.zsh" => "_aoc2md"
-        fish_completion.install "completions/aoc2md.fish"
-        man1.install "manpages/aoc2md.1.gz"
       end
     end
   end
