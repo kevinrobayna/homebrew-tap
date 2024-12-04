@@ -5,20 +5,20 @@
 class Aoc2md < Formula
   desc "The aoc2md tool to generate project setup 🎄"
   homepage "https://kevinrobayna.com"
-  version "0.2.3"
+  version "0.2.4"
 
   on_macos do
     on_intel do
-      url "https://github.com/kevinrobayna/aoc2md/releases/download/v0.2.3/aoc2md_Darwin_x86_64.tar.gz"
-      sha256 "e6f7155de422d94907cc500e92c99259f2e8d631e31e18c688dbc2df589e54a7"
+      url "https://github.com/kevinrobayna/aoc2md/releases/download/v0.2.4/aoc2md_Darwin_x86_64.tar.gz"
+      sha256 "a381c9081963110e9b6ff5a9a577d44f93ac9f2cc610b8a6abcfb7dff721ea4d"
 
       def install
         bin.install "aoc2md"
       end
     end
     on_arm do
-      url "https://github.com/kevinrobayna/aoc2md/releases/download/v0.2.3/aoc2md_Darwin_arm64.tar.gz"
-      sha256 "c641625c677cbf3a0a2220e6d895a2557fcd5791916c3cc65f37676ee7029159"
+      url "https://github.com/kevinrobayna/aoc2md/releases/download/v0.2.4/aoc2md_Darwin_arm64.tar.gz"
+      sha256 "41e3186b9d67641b4e233840ffb9f1164ce7f09d7b052ed7783fc89a68e2b043"
 
       def install
         bin.install "aoc2md"
@@ -29,8 +29,8 @@ class Aoc2md < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/kevinrobayna/aoc2md/releases/download/v0.2.3/aoc2md_Linux_x86_64.tar.gz"
-        sha256 "46ecd65eb5a4a881beb3ec6a69e0207926f8a53b9593d2c317b67eb390137b2e"
+        url "https://github.com/kevinrobayna/aoc2md/releases/download/v0.2.4/aoc2md_Linux_x86_64.tar.gz"
+        sha256 "fa5f2b7a26215554a14c492af02e8ac1f3c5a1f3c411d6b191d86f44eade25f8"
 
         def install
           bin.install "aoc2md"
@@ -39,8 +39,8 @@ class Aoc2md < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/kevinrobayna/aoc2md/releases/download/v0.2.3/aoc2md_Linux_arm64.tar.gz"
-        sha256 "d1d5b295108ba4598edeb78934919c76d29d6801a320c2adcb045b6f06391ad1"
+        url "https://github.com/kevinrobayna/aoc2md/releases/download/v0.2.4/aoc2md_Linux_arm64.tar.gz"
+        sha256 "341541351cd2635312bd8170312bd4ae66c51542b3633a1f85c5b61472098564"
 
         def install
           bin.install "aoc2md"
