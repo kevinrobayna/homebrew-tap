@@ -3,7 +3,7 @@ cask "codeowner" do
   name "codeowner"
   desc "A CLI tool for working with CODEOWNERS files"
   homepage "https://github.com/kevinrobayna/codeowner"
-  version "0.2.4"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "codeowner" do
   on_macos do
     on_intel do
       url "https://github.com/kevinrobayna/codeowner/releases/download/v#{version}/codeowner_#{version}_darwin_amd64.tar.gz"
-      sha256 "3265fe96343e3876fe47d55332631bc9d803793b37de83ed036d9a6747238a59"
+      sha256 "893a611d4ba36ce859128d48456b064a46bb1a128f23e9cf581e49c447c547a2"
     end
     on_arm do
       url "https://github.com/kevinrobayna/codeowner/releases/download/v#{version}/codeowner_#{version}_darwin_arm64.tar.gz"
-      sha256 "390f0c63ca2cde0b7db7c348fff020ad38f1586503c3919fd3c6f61b66b36986"
+      sha256 "64efd5f8aa86405e0d86864f0d1493edeb81917ee1178a45988bbc9c27a3f70f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kevinrobayna/codeowner/releases/download/v#{version}/codeowner_#{version}_linux_amd64.tar.gz"
-      sha256 "b892f34e52272e017b741567b5e13e208d58f785f3143d6ff8714b622fd595cc"
+      sha256 "a9199b51c30d287cbbb56a2c83a28181fb4669bed3f9aa20eab0e82b38282409"
     end
     on_arm do
       url "https://github.com/kevinrobayna/codeowner/releases/download/v#{version}/codeowner_#{version}_linux_arm64.tar.gz"
-      sha256 "3bc8b3bce6e66c79113bcd4cab423133efefe9a19995a8e183a06c4f80696666"
+      sha256 "5deb06d4d71ca3d09a8f16d5c5c488960cdb2734afc2c001f36cc9127fba5b7c"
     end
   end
 
